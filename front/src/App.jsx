@@ -1,5 +1,5 @@
 import "./App.css";
-import AppRouter from "./router/app-router.jsx";
+import AppRouter from "./router/appRouter.jsx";
 import { useEffect } from "react";
 
 function App() {
