@@ -1,0 +1,47 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@font-face {
+  font-family: "Jua";
+  src: url("assets/fonts/BMJUA_otf.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+body {
+  height: 100%;
+}
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+#root {
+  height: 100%;
+}
+
+:root {
+  --main-hot-pink: #F875AA;
+  --main-light-pink1: #FFDFDF;
+  --main-pink1: #FCAAC5;
+  --color-gray-1: #999999;
+  --color-gray-2: #F0F0F0;
+  --color-gray-3: #D9D9D9;
+  --vh: 100%;
+}
+
+input::placeholder {
+  font-family: inter;
+  font-weight: 500;
+  color: var(--color-gray-1);
+}
+
+button {
+  border: none;
+}
