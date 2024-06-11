@@ -4,7 +4,7 @@ import {
   ModalTitle,
   ModalSubTitle,
   Step,
-} from "./styles/modalHeader.styles.jsx";
+} from "./styles/ModalHeader.styles.jsx";
 
 const ModalHeader = ({
   curStep,
