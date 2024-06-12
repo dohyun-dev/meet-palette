@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:mysql://13.209.82.23:3306/meet_palette
+    username: root
+    password: dsafdasfdasfsdafsd
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        default_batch_size: 10
+
+  batch:
+    jdbc:
+      initialize-schema: always
+
+kakao:
+  apiKey: 57e7f4f0262475875a9b94fcd8a97b3b
+
+frontEndUrl:
+  domain: "http://13.209.82.23:5173"
+  placeConfirm: "${frontEndUrl.domain}/place-confirm/"
+
+cool-sms:
+  api-key: "NCSHUZ8V9NAHIDQ7"
+  api-secret: "BRQ6IFOTVUMLDTMOWON8WQZGWZGP4VNF"
+  sender-number: "01063230351"

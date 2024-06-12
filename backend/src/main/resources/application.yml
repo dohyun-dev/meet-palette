@@ -1,1 +1,3 @@
-spring.application.name=backend
+jasypt:
+  encryptor:
+    password: ${JASYPT_PASSWORD}
